@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Em có yêu anh không ?</title>
+		<meta name="keywords" content="Em có yêu anh không ?" />
+		<meta name="description" content="Em có yêu tao không ?" />
+		<meta name="robots" content="noindex">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+		<link rel="stylesheet" type="text/css" href="reset.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen,handheld" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Mali" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page-wrap" class="wow animated fadeIn slower">
+			<div class="content">
+				<h1 class="cauhoi wow animated fadeInDown"><!-- sửa nội dung -->
+					Cục Mỡ yêu dấu của anh à ! <br>
+					Hôm nay là một ngày rất đặc biệt của chúng ta <br> 
+					và đây cũng là món quà nhỏ anh dành tặng cho Mỡ. <br>
+					Em hãy ấn vào 1 trong 2 nút ở phía dưới để biết bất ngờ nhé ^^<br>
+					Hoàn cảnh hiện tại không cho phép anh bên em và thổ lộ với em, <br>
+					nên anh làm ra trang web này là để thay lời yêu thương của anh !!!
+				</h1>
+				<h2 class="cauhoi wow animated zoomIn slower">Là... Là... Là chúng ta sẽ luôn như ngày hôm qua nhé em yêu?</h2><!-- sửa nội dung -->
+				<div class="yesno">
+			        <input id="no" class="traloi animated bounceInLeft slower" type="button" value="I'm thinking... &omega;" ></input><!-- sửa câu trả lời -->
+			        <a href="love.html"><input id="yes" class="traloi animated bounceInRight slower" type="button" value="Yes, I agree &hearts;"></input></a><!-- sửa câu trả lời -->
+				</div>
+			</div>
+		<footer>&copy; by <a href="https://huuphung.com">Kíp</a></footer>
+		</div>
+		<div id="page-wrap-sad" class="animated bounceIn">
+			<div class="content">
+				<h3 class="wow animated flip slower" >ANH BIẾT LÀ EM ĐANG ĐÙA NHÉ^^
+					CLICK VÔ NÚT NÈ !!! </h3>
+				<a href="love.html"><input id="yes" class="traloi animated bounceInRight slower" type="button" value="Điều bất ngờ ^^"></input></a>
+			</div>
+		<footer>&copy; by <a href="huuphuung.com">Kíp</a></footer>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script>
+			$('#no').click(function()
+			{
+			    $('#page-wrap').css('display','none');
+			    $('#page-wrap-sad').show();
+			});
+		</script>
+	</body>
+</html>
